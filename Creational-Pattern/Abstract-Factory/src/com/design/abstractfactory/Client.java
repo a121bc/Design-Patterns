@@ -4,8 +4,6 @@ import com.design.abstractfactory.Factory.Factory;
 import com.design.abstractfactory.Factory.NorthProductFactory;
 import com.design.abstractfactory.Factory.SouthProductFactory;
 
-import java.util.Arrays;
-
 public class Client {
 
     public static void main(String[] args) {

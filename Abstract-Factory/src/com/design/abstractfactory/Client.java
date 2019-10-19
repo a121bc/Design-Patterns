@@ -1,5 +1,6 @@
 package com.design.abstractfactory;
 
+import com.design.abstractfactory.Factory.Factory;
 import com.design.abstractfactory.Factory.NorthProductFactory;
 import com.design.abstractfactory.Factory.SouthProductFactory;
 
@@ -8,8 +9,8 @@ import java.util.Arrays;
 public class Client {
 
     public static void main(String[] args) {
-        NorthProductFactory northProductFactory = new NorthProductFactory();
-        SouthProductFactory southProductFactory = new SouthProductFactory();
+        Factory northProductFactory = new NorthProductFactory();
+        Factory southProductFactory = new SouthProductFactory();
         System.out.println("北方产品：");
         northProductFactory.createFruit().fruitInfo();
         northProductFactory.createVegetable().vegetableInfo();

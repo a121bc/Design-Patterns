@@ -1,5 +1,7 @@
 package com.design.command;
 
+import com.design.Command;
+
 /**
  * 客户端角色类
  */

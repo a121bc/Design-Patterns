@@ -1,4 +1,4 @@
-package com.design.command;
+package com.design;
 
 /**
  * 抽象命令角色类

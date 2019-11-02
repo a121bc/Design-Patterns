@@ -1,5 +1,7 @@
 package com.design.command;
 
+import com.design.Command;
+
 /**
  * 具体命令角色类
  */

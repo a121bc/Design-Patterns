@@ -1,4 +1,4 @@
-package com.design.cursor_iterator;
+package com.design;
 
 /**
  * 抽象聚集角色类，这个角色规定出所有的具体聚集必须实现的接口。

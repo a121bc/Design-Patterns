@@ -1,11 +1,11 @@
-package com.design.cursor_iterator;
+package com.design.extrinsic_iterator;
 
 import com.design.Aggregate;
 import com.design.Iterator;
 
 public class Client {
 
-    public void operation(){
+    private void operation(){
         Object[] objArray = {"One","Two","Three","Four","Five","Six"};
         //创建聚合对象
         Aggregate agg = new ConcreteAggregate(objArray);

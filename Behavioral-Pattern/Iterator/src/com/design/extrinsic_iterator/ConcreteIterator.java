@@ -1,4 +1,6 @@
-package com.design.cursor_iterator;
+package com.design.extrinsic_iterator;
+
+import com.design.Iterator;
 
 /**
  * 具体迭代子角色类
